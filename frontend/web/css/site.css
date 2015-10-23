@@ -1,0 +1,290 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.myNavBar {
+    background:#000;
+    border-style: none;
+	color:#FFF;
+	font-weight:bolder;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.myBackgroundImage
+{
+ 	background: url("../images/serah.jpg") no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.index_title
+{
+	font-size: 20px;
+	font-weight:bolder;
+	line-height: 1.42857;
+	font-family:Verdana, Geneva, sans-serif;
+	background: rgba(190,190,190,0.7); 
+-webkit-box-shadow: 5px 7px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 7px 13px -2px rgba(0,0,0,0.75);
+box-shadow: 5px 7px 13px -2px rgba(0,0,0,0.75);	
+text-align:center;
+}
+
+.news
+{
+	line-height: 1.42857;
+	margin-top:0px;
+	margin-bottom:6px;
+	word-break: break-all;
+	word-wrap:normal;
+	background: rgba(255,255,255,0.7); 
+}
+
+.special_events
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+	display: block;
+	padding: 9.5px;
+	margin: 0px 0px 10px;
+	font-size: 14px;
+	color: #333;
+	border: 1px solid #333;
+	border-radius: 7px;
+	background: rgba(128,128,128,0.7);  
+	color:white;
+	
+
+}
+
+.thread_table
+{
+	background: rgba(255,255,255,0.8);
+	width:100%;
+	border-spacing: 10px;
+    border-collapse: separate; 
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+.thread_td
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float:left;
+	display: block;
+	padding:10px;
+	padding-top:0px;
+	
+}
+
+.thread_description
+{
+	font-size:14px;
+}
+
+.thread_info
+{
+	font-family:Verdana, Geneva, sans-serif;
+	margin-right:100px;
+	font-size:12px;
+	color:#666;
+	border-radius: 10px;
+}
+
+
+kbd
+{
+	font-size:13px;
+	font-weight:bolder;
+}
+
+.thread_date
+{
+	border: 1px solid #333;
+	border-radius: 10px;
+	display: block;
+	font-size:13px;
+	text-align:center;
+}
+
+.thread_cover
+{
+	max-width: 400px;
+	min-width: 300px; 
+	float: right; 
+	margin: 10px 15px 10px 10px;
+	border: 3px solid #333;
+	border-radius: 0px;
+	
+}
+
+.thread_title
+{
+	position:relative;
+	font-size:38px;
+	font-weight:bolder;
+	display:inline-block;
+
+}
+
+/* CSS for user banner at thread and post (or everything else)*/
+.forum_username /* Global */
+{
+	font-size:18px;
+	font-weight:bolder;
+
+}
+
+.role_admin /* Administrator */
+{
+	color:#F00;
+	
+}
+
+.role_super_moderator /* Super Moderator */
+{
+	color:#03F;
+	
+}
+
+.role_moderator /* Moderator */
+{
+	color:#390;
+	
+}
+
+.forum_user_details /* Global */
+{
+	font-size:12px;
+	font-weight:bolder;	
+}
+
+.forum_avatar /* Avatar */
+{
+	max-width:170px;
+	max-height:470px;
+	text-align:center;
+	/*border: 3px solid #333;
+	border-radius: 10px;*/
+
+}
+
+.forceright
+{
+	float: right;
+}
+
+.forcepad
+{
+	padding:20px;
+}
+
+.newest_game 
+{
+	max-width:470px;
+	max-height:470px;
+	text-align:center;
+	/*border: 3px solid #333;
+	border-radius: 10px;*/
+
+}
+
+.newest_cover 
+{
+	max-width:470px;
+	max-height:470px;
+	/*border: 3px solid #333;
+	border-radius: 10px;*/
+
+}
